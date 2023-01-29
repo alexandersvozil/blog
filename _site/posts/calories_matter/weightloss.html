@@ -198,18 +198,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>We define energy balance at time <span class="math inline">\(t\)</span> as follows: <span class="math display">\[b^t = c^t_{in} - c^t_{out}\]</span></p>
 <section id="we-constantly-use-energy" class="level2">
 <h2 class="anchored" data-anchor-id="we-constantly-use-energy">We constantly use energy</h2>
-<p>Our body constantly uses energy, even when we sleep or do nothing. To get a good baseline for your daily energy needs you can use the following formula<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>: <span class="math display">\[ \sum_{1 \leq t \leq 24} c^t_{out} = \begin{cases}
-10 \cdot \text{ weight (kg)} + 6.25 x \text{height (cm)} - 5 x \text{age (y)}  \text{ for men}\\
-10 \cdot \text{ weight (kg)} + 6.25 x \text{height (cm)} - 5 x \text{age (y)} - 161 \text{ for females}
+<p>Our body constantly uses energy, even when we sleep or do nothing. To get an approximation for your daily energy needs you can use the following formula<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>: <span class="math display">\[ \sum_{1 \leq t \leq 24} c^t_{out} = \begin{cases}
+10 \cdot \text{ weight (kg)} + 6.25 \cdot \text{ height (cm)} - 5 \cdot \text{ age (y)}  \text{ for men}\\
+10 \cdot \text{ weight (kg)} + 6.25 \cdot \text{ height (cm)} - 5 \cdot \text{ age (y)} - 161 \text{ for females}
 \end{cases}
 \]</span></p>
-<p>Note that, obviously, if you do exercise at time <span class="math inline">\(t\)</span> you will use more energy at this time.</p>
+<p>Note that, obviously, if you do exercise at time <span class="math inline">\(t\)</span> you will use more energy at this time and that the formula might not be accurate for you. On a usual day, this formula is off by ~350 calories for me.</p>
 <p>In our example we set <span class="math inline">\(c^t_{in}\)</span> to zero for all <span class="math inline">\(t\)</span> and because our energy expenditure as humans <span class="math inline">\(c^t_{out}\)</span> is always greater than zero we have a negative balance and we lose weight over time.</p>
 </section>
 <section id="food-is-transformed-to-energy" class="level2">
 <h2 class="anchored" data-anchor-id="food-is-transformed-to-energy">Food is transformed to energy</h2>
 <p>No matter what you eat, the body is a complex mechanism transforming everything we eat into energy (kcal). If you eat something at time <span class="math inline">\(t\)</span>, <span class="math inline">\(c^t_{in}\)</span>, will be positive. For example, If you eat an apple (~80kcal) at 1pm then <span class="math inline">\(c^{13}_{in} = 80\)</span>.</p>
-<p>How much you eat <strong>over time</strong> is the single most important factor when considering weightloss for our human robot. In the following picture we see the energy intake for (1) a human eating three meals and (2) a human fasting until the end of the day. They both do an exercise at 4pm and end up in at the same energy balance at the end of the day maintaining their weight.</p>
+<p>How much you eat <strong>over time</strong> is the single most important factor when considering weightloss for our human robot. In the following picture we see the energy intake for (1) a human eating three meals and (2) a human fasting until the end of the day. They both do exercise at 4pm and end up in at the same energy balance at the end of the day maintaining their weight. There is no evidence that fasting brought any advantage in terms of energy balance.</p>
 <div class="cell" data-execution_count="1">
 <details>
 <summary>Code</summary>
@@ -254,7 +254,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </figure>
 </div>
 <p><strong>Any diet, food claim with the aim of losing weight which does create a negative energy balance is a fraud and should be rejected without further consideration.</strong></p>
-<p>Losing weight is not easy in real life circumstances: After doing the obvious things like changing soda to diet soda/drinking water and eating healthy it is always connected with sacrifice called <em>diet</em>. Designing diets in practice is an art and are out of scope for this small post.</p>
+<p>Losing weight is not easy in real life circumstances: After doing the obvious things to consume less calories like changing soda to diet soda/drinking water and eating healthy to eat less there is only one option left: <em>diet</em>. Designing diets in practice is an art and out of scope for this small post.</p>
 <blockquote class="blockquote">
 <p>Please note that the information in this post is based on my personal interest and experience in the topic and should be taken at your own risk. I’ve researched nutrition for building muscle to get stronger and then later on to lose fat to run faster for more than 10 years, and I want to share what I’ve learned along the way.</p>
 </blockquote>

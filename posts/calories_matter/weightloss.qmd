@@ -1,5 +1,6 @@
 ---
 title: "Do not fall for this weightloss myth"
+category: "nutrition"
 format:
   html:
     code-fold: true
@@ -24,16 +25,16 @@ $$b^t = c^t_{in} - c^t_{out}$$
 
 ## We constantly use energy 
 Our body constantly uses energy, even when we sleep or do nothing.
-To get a good baseline for your daily energy needs you can use the following formula[^2]: 
+To get an approximation for your daily energy needs you can use the following formula[^2]: 
 $$ \sum_{1 \leq t \leq 24} c^t_{out} = \begin{cases}
- 10 \cdot \text{ weight (kg)} + 6.25 x \text{height (cm)} - 5 x \text{age (y)}  \text{ for men}\\ 
-10 \cdot \text{ weight (kg)} + 6.25 x \text{height (cm)} - 5 x \text{age (y)} - 161 \text{ for females}
+ 10 \cdot \text{ weight (kg)} + 6.25 \cdot \text{ height (cm)} - 5 \cdot \text{ age (y)}  \text{ for men}\\ 
+10 \cdot \text{ weight (kg)} + 6.25 \cdot \text{ height (cm)} - 5 \cdot \text{ age (y)} - 161 \text{ for females}
 \end{cases}
 $$
 
 [^2]: [Mifflin MD, St Jeor ST, Hill LA, Scott BJ, Daugherty SA, Koh YO. A new predictive equation for resting energy expenditure in healthy individuals. Am J Clin Nutr. 1990 Feb;51(2):241-7. doi: 10.1093/ajcn/51.2.241. PMID: 2305711.](https://doi.org/10.1093/ajcn/51.2.241)
 
-Note that, obviously, if you do exercise at time $t$ you will use more energy at this time. 
+Note that, obviously, if you do exercise at time $t$ you will use more energy at this time and that the formula might not be accurate for you. On a usual day, this formula is off by ~350 calories for me.
 
 In our example we set $c^t_{in}$ to zero for all $t$ and because our energy expenditure as humans $c^t_{out}$ is always greater than zero we have a negative balance and we lose weight over time.
 
@@ -42,7 +43,8 @@ No matter what you eat, the body is a complex mechanism transforming everything 
 If you eat something at time $t$, $c^t_{in}$, will be positive. 
 For example, If you eat an apple (~80kcal) at 1pm then $c^{13}_{in} = 80$.
 
-How much you eat **over time** is the single most important factor when considering weightloss for our human robot. In the following picture we see the energy intake for (1) a human eating three meals and (2) a human fasting until the end of the day. They both do an exercise at 4pm and end up in at the same energy balance at the end of the day maintaining their weight.
+How much you eat **over time** is the single most important factor when considering weightloss for our human robot. In the following picture we see the energy intake for 
+(1) a human eating three meals and (2) a human fasting until the end of the day. They both do exercise at 4pm and end up in at the same energy balance at the end of the day maintaining their weight. There is no evidence that fasting brought any advantage in terms of energy balance.
 
 ```{python}
 import pandas as pd
@@ -78,7 +80,8 @@ plt.show()
 
 **Any diet, food claim with the aim of losing weight which does create a negative energy balance is a fraud and should be rejected without further consideration.**
 
-Losing weight is not easy in real life circumstances: After doing the obvious things like changing soda to diet soda/drinking water and eating healthy it is always connected with sacrifice called *diet*. Designing diets in practice is an art and are out of scope for this small post.
+Losing weight is not easy in real life circumstances: After doing the obvious things to consume less calories like changing soda to diet soda/drinking water and eating healthy to eat less there is only one
+option left: *diet*. Designing diets in practice is an art and out of scope for this small post.
 
 
 > Please note that the information in this post is based on my personal interest and experience in the topic and should be taken at your own risk. I've researched nutrition for building muscle to get stronger and then later on to lose fat to run faster for more than 10 years, and I want to share what I've learned along the way.
