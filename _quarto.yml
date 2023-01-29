@@ -11,6 +11,13 @@ website:
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com
+  cookie-consent:
+    type: express
+    style: headline
+    palette: dark
+  google-analytics:
+    tracking-id: "G-VZ2D2CGVTS"
+    anonymize-ip: true
 format:
   html:
     theme: cosmo
