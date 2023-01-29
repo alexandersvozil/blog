@@ -78,7 +78,7 @@ plt.show()
 ## Consequences
 ![the brofallacy](iq.jpg)
 
-**Any diet, food claim with the aim of losing weight which does create a negative energy balance is a fraud and should be rejected without further consideration.**
+**Any diet, food claim with the aim of losing weight which does *not* create a negative energy balance is a fraud and should be rejected without further consideration.**
 
 Losing weight is not easy in real life circumstances: After doing the obvious things to consume less calories like changing soda to diet soda/drinking water and eating healthy  is only one
 option left  -- *diet*. Designing diets in practice is an art and out of scope for this small post.
