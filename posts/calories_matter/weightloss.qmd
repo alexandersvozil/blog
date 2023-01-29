@@ -80,8 +80,8 @@ plt.show()
 
 **Any diet, food claim with the aim of losing weight which does create a negative energy balance is a fraud and should be rejected without further consideration.**
 
-Losing weight is not easy in real life circumstances: After doing the obvious things to consume less calories like changing soda to diet soda/drinking water and eating healthy to eat less there is only one
-option left: *diet*. Designing diets in practice is an art and out of scope for this small post.
+Losing weight is not easy in real life circumstances: After doing the obvious things to consume less calories like changing soda to diet soda/drinking water and eating healthy  is only one
+option left  -- *diet*. Designing diets in practice is an art and out of scope for this small post.
 
 
 > Please note that the information in this post is based on my personal interest and experience in the topic and should be taken at your own risk. I've researched nutrition for building muscle to get stronger and then later on to lose fat to run faster for more than 10 years, and I want to share what I've learned along the way.
