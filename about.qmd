@@ -1,0 +1,21 @@
+---
+title: "About"
+image: profile.jpeg
+about: 
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/alexander-svozil-61a6b396
+    - icon: github
+      text: Github
+      href: https://github.com/alexandersvozil
+
+---
+
+
+As an applied scientist for Amazon in the field of surface transportation, I am part of a dedicated team that specializes in the development of mathematical models for scheduling truck operations. Our objective is to optimize the utilization of transportation resources to ensure the timely and efficient delivery of goods. Our models are implemented in practice to make data-driven decisions that save money for the company.
+
+Before working for Amazon I worked on model checking and reactive synthesis for a variety of models, including state-transition graphs, Markov Decision Processes (MDPs), and game graphs. My work focused on verifying and constructing correct reactive systems using a range of ω-regular objectives, including reachability, Büchi, bounded Büchi, Streett, and parity objectives. I also utilized fast graph algorithms and modern algorithmic techniques to improve the efficiency of my work. During my research, I published 7 papers in top computer science conferences and received a grade of "with distinction" for my PhD dissertation, which was nominated for the Award of Excellence from the Austrian government and the GI dissertation prize. My full publication record can be found at https://dblp.org/pid/202/2327.html.
+
+ > Please note that the opinions expressed in this blog post are my own and do not reflect the views of Amazon. I am an independent individual with my own thoughts and ideas, and my views do not represent those of my employer or any other organization.

@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Alexander Svozil’s Blog",
+    "section": "",
+    "text": "Do not fall for this weightloss myth\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\nprint(\"test\")\n\ntest"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "As an applied scientist for Amazon in the field of surface transportation, I am part of a dedicated team that specializes in the development of mathematical models for scheduling truck operations. Our objective is to optimize the utilization of transportation resources to ensure the timely and efficient delivery of goods. Our models are implemented in practice to make data-driven decisions that save money for the company.\nBefore working for Amazon I worked on model checking and reactive synthesis for a variety of models, including state-transition graphs, Markov Decision Processes (MDPs), and game graphs. My work focused on verifying and constructing correct reactive systems using a range of ω-regular objectives, including reachability, Büchi, bounded Büchi, Streett, and parity objectives. I also utilized fast graph algorithms and modern algorithmic techniques to improve the efficiency of my work. During my research, I published 7 papers in top computer science conferences and received a grade of “with distinction” for my PhD dissertation, which was nominated for the Award of Excellence from the Austrian government and the GI dissertation prize. My full publication record can be found at https://dblp.org/pid/202/2327.html.\n\nPlease note that the opinions expressed in this blog post are my own and do not reflect the views of Amazon. I am an independent individual with my own thoughts and ideas, and my views do not represent those of my employer or any other organization."
+  },
+  {
+    "objectID": "posts/weightloss/weightloss.html",
+    "href": "posts/weightloss/weightloss.html",
+    "title": "Weightloss Myths",
+    "section": "",
+    "text": "In today’s fast-paced world, everyone is looking for a quick fix to their weight problems. The weight loss market in the U.S. is valued at $72.6 billion1, and as a result, it’s no surprise that many scammers infiltrated this space in an attempt to make a quick buck off of other people’s misery.\nUndoubtedly, losing weight is a complicated endeavor and many people struggle with it, especially in light of the recent pandemic. It can be hard to separate the truth from the lies and the genuine products from the frauds. In this blog post, I’ll be sharing my personal experiences and providing a mechanism to filter out the frauds immediately.\nPlease note that the information in this post is based on my personal interest and experience in the topic and should be taken at your own risk. I’ve researched nutrition for building muscle to get stronger and then later on to lose fat to run faster for more than 10 years, and I want to share what I’ve learned along the way."
+  },
+  {
+    "objectID": "posts/weightloss/weightloss.html#food-is-transformed-to-energy",
+    "href": "posts/weightloss/weightloss.html#food-is-transformed-to-energy",
+    "title": "Weightloss Myths",
+    "section": "Food is transformed to energy",
+    "text": "Food is transformed to energy\nNo matter what you eat, the body is a complex mechanism transforming everything we eat into energy, (kcal). If you eat something at time \\(t\\), \\(c^t_{in}\\), will be positive. For example, If you eat an apple (~80kcal) at 1pm then \\(c^{13}_{in} = 80\\)."
+  },
+  {
+    "objectID": "posts/weightloss/weightloss.html#consequences",
+    "href": "posts/weightloss/weightloss.html#consequences",
+    "title": "Weightloss Myths",
+    "section": "Consequences",
+    "text": "Consequences\nHow much you eat over time is the single most important factor when considering weightloss for our human robot. In the following picture we see the energy intake for (1) a human eating three meals and (2) a human fasting until the end of the day. They both do an exercise at 4pm and end up in at the same energy balance at the end of the day maintaining their weight."
+  },
+  {
+    "objectID": "python_notebooks/weightloss.html",
+    "href": "python_notebooks/weightloss.html",
+    "title": "blog",
+    "section": "",
+    "text": "import pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns"
+  },
+  {
+    "objectID": "python_notebooks/weightloss.html#food-is-transformed-to-energy",
+    "href": "python_notebooks/weightloss.html#food-is-transformed-to-energy",
+    "title": "blog",
+    "section": "Food is transformed to energy",
+    "text": "Food is transformed to energy\nNo matter what you eat, the body is a complex mechanism transforming everything we eat into energy, (kcal). That is, if you eat something at time \\(t\\), \\(c^t_{in}\\), will be positive. If you eat an apple at time \\(t\\) \\(c^t_{in}\\) will be approximately 80kcal."
+  },
+  {
+    "objectID": "python_notebooks/weightloss.html#consequences",
+    "href": "python_notebooks/weightloss.html#consequences",
+    "title": "blog",
+    "section": "Consequences",
+    "text": "Consequences\nHow much energy the robot takes in over time is the only important factor for weight loss/weight gain. In the example below, we consider two different human robots eating different diets but with the exact same energy expenditure. Note that after the day, both people end up maintaining their weight since their energy intake is the same."
+  },
+  {
+    "objectID": "posts/calories_matter/weightloss.html",
+    "href": "posts/calories_matter/weightloss.html",
+    "title": "Do not fall for this weightloss myth",
+    "section": "",
+    "text": "In today’s fast-paced world, everyone is looking for a quick fix to their weight problems. The weight loss market in the U.S. is valued at $72.6 billion1, and as a result, it’s no surprise that many scammers infiltrate this space in an attempt to make a quick buck off of other people’s misery.\nUndoubtedly, losing weight is a complicated endeavor and many people struggle with it, especially in light of the recent pandemic. It can be hard to separate the truth from the lies and the genuine products from the frauds. In this blog post, I’ll present a mechanism to filter out 99% of the frauds immediately."
+  },
+  {
+    "objectID": "posts/calories_matter/weightloss.html#food-is-transformed-to-energy",
+    "href": "posts/calories_matter/weightloss.html#food-is-transformed-to-energy",
+    "title": "Do not fall for this weightloss myth",
+    "section": "Food is transformed to energy",
+    "text": "Food is transformed to energy\nNo matter what you eat, the body is a complex mechanism transforming everything we eat into energy (kcal). If you eat something at time \\(t\\), \\(c^t_{in}\\), will be positive. For example, If you eat an apple (~80kcal) at 1pm then \\(c^{13}_{in} = 80\\).\nHow much you eat over time is the single most important factor when considering weightloss for our human robot. In the following picture we see the energy intake for (1) a human eating three meals and (2) a human fasting until the end of the day. They both do an exercise at 4pm and end up in at the same energy balance at the end of the day maintaining their weight.\n\n\nCode\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\ndf = pd.DataFrame(\n    \n    {\n    '3_meals' : [0] * 7 + [700] + 5*[0] + [1000] + [0] * 5 + [1000] + 4*[0],\n     'fasting' : [0] * 19 + [2700] + [0] * 4,\n     'c_out' : [70] * 15  + [1050] + [75] * 8,\n    }\n).assign(**{\n    '3_meals_cum' : lambda x: x['3_meals'].cumsum(),\n    'fasting_cum' : lambda x: x['fasting'].cumsum(),\n    'energy_expended (day level)': lambda x: x['c_out'].cumsum()\n})\n\nfig, ax = plt.subplots()\nsns.lineplot(data=df[['3_meals_cum', 'fasting_cum',\n             'energy_expended (day level)']], ax=ax)\nxticks = list(range(0, len(df)))\n\nax.set_ylabel(\"KCal\")\nax.set_xticks(xticks)\nax.set_xticklabels(xticks, rotation=90)\nax.set_xlabel(\"Hours\")\nplt.show()"
+  },
+  {
+    "objectID": "posts/calories_matter/weightloss.html#consequences",
+    "href": "posts/calories_matter/weightloss.html#consequences",
+    "title": "Do not fall for this weightloss myth",
+    "section": "Consequences",
+    "text": "Consequences\n\n\n\nthe brofallacy\n\n\nAny diet, food claim with the aim of losing weight which does create a negative energy balance is a fraud and should be rejected without further consideration.\nLosing weight is not easy in real life circumstances: After doing the obvious things like changing soda to diet soda/drinking water and eating healthy it is always connected with sacrifice called diet. Designing diets in practice is an art and are out of scope for this small post.\n\nPlease note that the information in this post is based on my personal interest and experience in the topic and should be taken at your own risk. I’ve researched nutrition for building muscle to get stronger and then later on to lose fat to run faster for more than 10 years, and I want to share what I’ve learned along the way."
+  },
+  {
+    "objectID": "posts/calories_matter/weightloss.html#we-constantly-use-energy",
+    "href": "posts/calories_matter/weightloss.html#we-constantly-use-energy",
+    "title": "Do not fall for this weightloss myth",
+    "section": "We constantly use energy",
+    "text": "We constantly use energy\nOur body constantly uses energy, even when we sleep or do nothing. To get a good baseline for your daily energy needs you can use the following formula2: \\[ \\sum_{1 \\leq t \\leq 24} c^t_{out} = \\begin{cases}\n10 \\cdot \\text{ weight (kg)} + 6.25 x \\text{height (cm)} - 5 x \\text{age (y)}  \\text{ for men}\\\\\n10 \\cdot \\text{ weight (kg)} + 6.25 x \\text{height (cm)} - 5 x \\text{age (y)} - 161 \\text{ for females}\n\\end{cases}\n\\]\nNote that, obviously, if you do exercise at time \\(t\\) you will use more energy at this time.\nIn our example we set \\(c^t_{in}\\) to zero for all \\(t\\) and because our energy expenditure as humans \\(c^t_{out}\\) is always greater than zero we have a negative balance and we lose weight over time."
+  }
+]
